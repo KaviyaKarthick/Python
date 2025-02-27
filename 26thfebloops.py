@@ -14,10 +14,14 @@
 
 #definite loops (For)
 
-# family =["kaviya", "karthick","kavinilaa"]
-# for family in  family:
+familys =["kaviya", "karthick","kavinilaa"]
+# for family in  familys:
 #     print("Hi", family)
-# print("done")
+for i in  range(len(familys)):
+    family = familys[i]
+    print("Hi", family)
+print("done")
+
 
 # a=1
 # for b in [1, 2, 23, 45, 54]:
@@ -37,11 +41,11 @@
 #     print(b,a)
 # print ("end")
     
-a= None
-for b in [23, 42, 12, 3, 45, 2]:
-    if a is None:
-        a=b
-    elif a>b:
-        a=b
+# a= None
+# for b in [23, 42, 12, 3, 45, 2]:
+#     if a is None:
+#         a=b
+#     elif a>b:
+#         a=b
 
-print(a)
+# print(a)
